@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio of a Computer Science and Engineering student.">
+  <title>My Portfolio | CSE Student</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="logo" href="#home">My<span>Portfolio</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">HELLO, WELCOME TO MY PORTFOLIO</p>
+          <h1>Hi, I'm <span class="accent">Mojahid Hasan Taki</span></h1>
+          <h2>Computer Science &amp; Engineering Student</h2>
+          <p class="lead">I am a CSE student interested in web technologies, cybersecurity, artificial intelligence, and technology projects.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#projects">Explore My Projects</a>
+            <a class="button secondary" href="#contact">Contact Me</a>
+          </div>
+        </div>
+        <div class="hero-card" aria-label="Profile introduction">
+          <div class="avatar">MH</div>
+          <p class="card-label">ASPIRING TECHNOLOGY PROFESSIONAL</p>
+          <h3>Learn · Build · Improve</h3>
+          <p>Exploring technology through academic work and hands-on projects.</p>
+          <div class="mini-tags"><span>Web Development</span><span>Cybersecurity</span><span>AI</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container narrow">
+        <p class="eyebrow">GET TO KNOW ME</p>
+        <h2 class="section-title">About Me</h2>
+        <p class="section-intro">I am a Computer Science and Engineering student at IUBAT. I enjoy learning how technology works and applying classroom knowledge to practical projects. My interests include web development, cybersecurity, artificial intelligence, and robotics.</p>
+        <div class="stats-grid">
+          <div class="stat"><strong>3.45</strong><span>Current CGPA</span></div>
+          <div class="stat"><strong>2027</strong><span>Expected Graduation</span></div>
+          <div class="stat"><strong>4+</strong><span>Areas of Interest</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="education">
+      <div class="container">
+        <p class="eyebrow">MY ACADEMIC JOURNEY</p>
+        <h2 class="section-title">Education</h2>
+        <div class="timeline">
+          <article class="timeline-item">
+            <span class="timeline-dot"></span>
+            <div class="content-card">
+              <span class="date">Expected 2027</span>
+              <h3>BSc in Computer Science and Engineering</h3>
+              <p class="muted">International University of Business Agriculture and Technology (IUBAT)</p>
+              <p>Current CGPA: 3.45</p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <span class="timeline-dot"></span>
+            <div class="content-card">
+              <span class="date">2021</span>
+              <h3>Higher Secondary Certificate (HSC)</h3>
+              <p class="muted">Rajshahi Cantonment Board School and College · Science</p>
+              <p>GPA: 5.00</p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <span class="timeline-dot"></span>
+            <div class="content-card">
+              <span class="date">2019</span>
+              <h3>Secondary School Certificate (SSC)</h3>
+              <p class="muted">Harimohan Government High School · Science</p>
+              <p>GPA: 5.00</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="container">
+        <p class="eyebrow">WHAT I'M LEARNING</p>
+        <h2 class="section-title">Skills &amp; Interests</h2>
+        <p class="section-intro">These are technologies and areas I have studied or am exploring. I continue to improve through coursework and practice.</p>
+        <div class="cards-grid skills-grid">
+          <article class="content-card"><div class="skill-icon">⌘</div><h3>Web Technologies</h3><p>HTML, CSS, JavaScript fundamentals and responsive web design.</p></article>
+          <article class="content-card"><div class="skill-icon">C#</div><h3>Programming</h3><p>C# fundamentals, object-oriented programming, and ASP.NET Core coursework.</p></article>
+          <article class="content-card"><div class="skill-icon">⌕</div><h3>Cybersecurity</h3><p>Beginner security learning, Linux basics, and hands-on practice labs.</p></article>
+          <article class="content-card"><div class="skill-icon">✦</div><h3>AI &amp; Robotics</h3><p>Interest in AI-powered applications, robotics, and drone projects.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="projects">
+      <div class="container">
+        <p class="eyebrow">SOME THINGS I'VE WORKED ON</p>
+        <h2 class="section-title">My Projects</h2>
+        <div class="cards-grid">
+          <article class="content-card project-card">
+            <div class="project-number">01</div>
+            <h3>AI Resume Analyzer</h3>
+            <p>A web application concept that reviews uploaded resumes against job information and provides an ATS-style score and improvement suggestions.</p>
+            <div class="mini-tags"><span>React</span><span>TypeScript</span><span>AI</span></div>
+          </article>
+          <article class="content-card project-card">
+            <div class="project-number">02</div>
+            <h3>Online Course Management System</h3>
+            <p>An ASP.NET Core project focused on organizing an online course management experience. Add screenshots and a repository link when ready.</p>
+            <div class="mini-tags"><span>C#</span><span>ASP.NET Core</span><span>Web</span></div>
+          </article>
+          <article class="content-card project-card">
+            <div class="project-number">03</div>
+            <h3>Drone &amp; Robotics Exploration</h3>
+            <p>A hands-on technology interest involving drone building and learning about robotics systems.</p>
+            <div class="mini-tags"><span>Robotics</span><span>Hardware</span><span>Learning</span></div>
+          </article>
+        </div>
+        <p class="small-note">Tip: Add your actual project repository URLs before submitting if you want visitors to open the source code.</p>
+      </div>
+    </section>
+
+    <section class="section" id="achievements">
+      <div class="container narrow">
+        <p class="eyebrow">LEARNING BEYOND THE CLASSROOM</p>
+        <h2 class="section-title">Achievements &amp; Activities</h2>
+        <div class="content-card achievement">
+          <div class="achievement-mark">✓</div>
+          <div><h3>HP LIFE Certificate</h3><p>Professional Networking for Career Growth.</p></div>
+        </div>
+        <div class="content-card achievement">
+          <div class="achievement-mark">✦</div>
+          <div><h3>Robotics Club Interest</h3><p>Interested in robotics activities and practical technology projects.</p></div>
+        </div>
+        <div class="content-card achievement">
+          <div class="achievement-mark">↗</div>
+          <div><h3>Continuous Learning</h3><p>Building knowledge through university assignments, personal projects, and cybersecurity practice labs.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="contact">
+      <div class="container narrow">
+        <p class="eyebrow">LET'S CONNECT</p>
+        <h2 class="section-title">Contact Me</h2>
+        <p class="section-intro">Thank you for visiting my portfolio. You can connect with me through GitHub or add your email and LinkedIn profile below.</p>
+        <div class="contact-links">
+          <a class="button primary" href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+          <a class="button secondary" href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+        </div>
+        <p class="small-note">Before publishing, replace these general links with your own profile URLs. Do not publish private contact information unless you want it to be public.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Mojahid Hasan Taki · Personal Portfolio</p>
+      <a href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
